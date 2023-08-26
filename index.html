@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>HEXtech</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <span> HEXtech </span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse navbar-right"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    onclick="scrollToSection('service')"
+                    class="nav-link"
+                    href="javascript:;"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    onclick="scrollToSection('how_we_work')"
+                    class="nav-link"
+                    href="javascript:;"
+                    >How we work</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    onclick="scrollToSection('clients')"
+                    class="nav-link"
+                    href="javascript:;"
+                    >Clients</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    onclick="scrollToSection('about')"
+                    class="nav-link"
+                    href="javascript:;"
+                  >
+                    About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    onclick="scrollToSection('contact')"
+                    class="nav-link"
+                    href="javascript:;"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <!-- <div class="quote_btn-container">
+                <a href="" class="quote_btn"> Get A Quote </a>
+              </div> -->
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+      <!-- slider section -->
+      <section id="home_section" class="slider_section">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/slider-img1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>Web Application development</h1>
+                      <p>
+                        Custom web applications play a pivotal role in today's
+                        digital landscape, offering tailored solutions that
+                        align perfectly with your unique business requirements.
+                        Unlike off-the-shelf solutions, custom web apps provide
+                        unmatched flexibility, scalability, and security,
+                        ensuring optimal performance and an exceptional user
+                        experience.
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn1"> Contact Us </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/slider-img.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>Mobile Application development</h1>
+                      <p>
+                        In the mobile-centric era we live in, having a custom
+                        mobile app is no longer a luxury but a necessity. A
+                        well-crafted mobile app not only enhances your brand's
+                        visibility but also engages your audience on a platform
+                        they carry everywhere, unlocking new avenues for
+                        customer interaction and business growth.
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn1"> Contact Us </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <img src="images/slider-img2.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <h1>IT Consulting</h1>
+                      <p>
+                        In the fast-paced world of technology, sound IT
+                        consulting is the compass that guides businesses through
+                        complexity. Our IT consulting services provide expert
+                        insights and strategies, helping you make informed
+                        decisions, optimize operations, and navigate the
+                        ever-evolving tech landscape with confidence.
+                      </p>
+                      <div class="btn-box">
+                        <a href="" class="btn1"> Contact Us </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#customCarousel1"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
+
+    <!-- service section -->
+    <section id="service_section" class="service_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Our Services</h2>
+          <p>
+            At HEXtech, we provide a diverse range of services designed to cater
+            to your specific needs
+          </p>
+        </div>
+        <div class="row equal-height-row">
+          <div class="col-md-6 col-lg-3 equal-height-col">
+            <div class="box custom-card-height">
+              <div class="img-box">
+                <img src="images/s4.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Product Development</h5>
+                <p>Your Idea, Our Expertise: Building Exceptional Products</p>
+                <!-- <a href="">
+                  <span> Read More </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 equal-height-col">
+            <div class="box custom-card-height">
+              <div class="img-box">
+                <img src="images/s3.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Web Apps</h5>
+                <p>Elevating Businesses with Custom Web Solutions</p>
+                <!-- <a href="">
+                  <span> Read More </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 equal-height-col">
+            <div class="box custom-card-height">
+              <div class="img-box">
+                <img src="images/s2.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>Mobile Apps</h5>
+                <p>Transforming Concepts into Mobile Realities</p>
+                <!-- <a href="">
+                  <span> Read More </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 equal-height-col">
+            <div class="box custom-card-height">
+              <div class="img-box">
+                <img src="images/s1.png" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5>IT Consulting</h5>
+                <p>Partnering for IT Excellence and Efficiency</p>
+                <!-- <a href="">
+                  <span> Read More </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="btn-box">
+          <a href=""> View More </a>
+        </div> -->
+      </div>
+    </section>
+    <!-- end service section -->
+
+    <!-- about section -->
+
+    <section id="how_we_work_section" class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="detail-box">
+              <div class="heading_container mb-30">
+                <h2>How we work</h2>
+              </div>
+              <div class="row equal-height-row mb-30">
+                <!-- Column 1 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>1. Discovery and Research</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        We get to know your idea through collaborative sessions.
+                        <br />
+                        After comprehending your concept, we enter research mode
+                        to explore competitors' actions, effective strategies,
+                        and pitfalls. This enables us to craft your product for
+                        distinctiveness within the market.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 1 -->
+                <!-- Column 2 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>2. Product scoping</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        Once we've gathered sufficient details, we outline and
+                        formulate the product features to address in the
+                        upcoming development stages.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 2 -->
+                <!-- Column 3 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>3. Product building</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        Our adept product teams commence work on your project
+                        with complete transparency and an Agile approach,
+                        ensuring your involvement in crucial stages, delivering
+                        iteratively, and refining until objectives are met.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 3 -->
+              </div>
+              <div class="row equal-height-row">
+                <!-- Column 4 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>4. Validating and Testing</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        In testing, our meticulous team covers all test cases
+                        comprehensively, leaving no stone unturned, and
+                        relentlessly hunts down bugs until none remain.
+                        <br />
+                        We consider real users the ultimate validators of our
+                        work, tracking market trends and consistently
+                        user-testing to ensure alignment with their desires and
+                        needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 4 -->
+                <!-- Column 5 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>5. Launching</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        With heightened team capacity and unwavering dedication,
+                        the culmination of launch day brings unparalleled joy
+                        and a resolute focus on ensuring a seamless and
+                        triumphant product launch
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 5 -->
+                <!-- Column 6 -->
+                <div class="col-md-4 equal-height-col">
+                  <div class="custom-card custom-card-height">
+                    <div class="custom-card-heading">
+                      <h6>6. Support</h6>
+                    </div>
+                    <div class="custom-card-content">
+                      <p>
+                        Following the triumphant launch, our commitment persists
+                        as we tend to your product, delivering exceptional IT
+                        support through our well-established DevOps and Site
+                        Reliability methodologies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 6 -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about section -->
+
+    <!-- case section -->
+
+    <section id="clients_section" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="heading_container width100">
+            <h2>Our clients</h2>
+            <p>To mention just a few of our satisfied clients</p>
+          </div>
+          <!-- <div class="col-6 text-right">
+              <a
+                class="btn btn-primary mb-3 mr-1 btn-caurosel-custom"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a
+                class="btn btn-primary mb-3 btn-caurosel-custom"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="next"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div> -->
+          <div class="col-12">
+            <div
+              id="carouselExampleIndicators2"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row equal-height-row">
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl1.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">Maze</h6>
+                          <p class="card-text">Product research</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl2.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">Yulife</h6>
+                          <p class="card-text">Insurance with heart</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl3.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">Kredd</h6>
+                          <p class="card-text">Loan refinancing</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl4.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">TX Services</h6>
+                          <p class="card-text">Swiss private media</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl5.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">Kitabuli</h6>
+                          <p class="card-text">Accounting software</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card custom-card-height">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl6.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">Compass</h6>
+                          <p class="card-text">Trucking & Logistics</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-2 mb-3 equal-height-col">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="./images//cl7.png"
+                        />
+                        <div class="card-body">
+                          <h6 class="card-title">APFM</h6>
+                          <p class="card-text">
+                            Senior care and assisted living
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end case section -->
+
+    <!-- About us section-->
+
+    <section id="about_section" class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>About Us</h2>
+              </div>
+              <p>
+                With a rich tapestry of experience, we at HEXtech are seasoned
+                experts in the realm of software development. Our proficiency
+                spans an array of advanced technologies including Node, React,
+                React Native, Go, Databases, Cloud Engineering, and DevOps.
+                However, our true badge of honor rests upon the satisfaction of
+                our clients, who stand as living testaments to our capabilities.
+              </p>
+              <p>
+                Driven by innovation and guided by client-centric collaboration,
+                we transform concepts into tangible software solutions. Our
+                portfolio isn't just a collection of projects; it's a chronicle
+                of partnerships that have revolutionized industries, streamlined
+                operations, and elevated user experiences. Every line of code we
+                craft is infused with our passion for excellence, and every
+                challenge we tackle is an opportunity to demonstrate our
+                commitment to turning ideas into powerful realities.
+              </p>
+              <!-- <a href=""> Read More </a> -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/about-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of about us section -->
+
+    <!-- contact section -->
+
+    <section id="contact_section" class="contact_section layout_padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 offset-md-1">
+            <div class="form_container">
+              <div class="heading_container">
+                <h2>Request A Call back</h2>
+              </div>
+              <form>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Full Name "
+                    name="full_name"
+                    id="input_full_name"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    id="input_email"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Phone number"
+                    name="phone"
+                    id="input_phone"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="message-box"
+                    placeholder="Message"
+                    name="message"
+                    id="input_message"
+                  />
+                </div>
+              </form>
+              <div class="d-flex">
+                <button onclick="submitForm()">SEND</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7 px-0">
+            <div class="map_container">
+              <div class="map">
+                <div id="googleMap"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact section -->
+
+    <div class="footer_container">
+      <!-- info section -->
+
+      <section class="info_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="info_detail">
+                <h4>HEXtech</h4>
+                <p>Build fast and always beautiful</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>Company info</h4>
+              <p>Tax id: 111540979</p>
+              <p>Registration id: 65487179</p>
+              <p>Country: Serbia</p>
+            </div>
+            <div class="col-md-6 col-lg-2 mx-auto">
+              <div class="info_link_box">
+                <h4>Links</h4>
+                <div class="info_links">
+                  <a onclick="scrollToSection('home')" href="javascript:;">
+                    Home
+                  </a>
+                  <a onclick="scrollToSection('service')" href="javascript:;">
+                    Services
+                  </a>
+                  <a
+                    onclick="scrollToSection('how_we_work')"
+                    href="javascript:;"
+                  >
+                    How we work
+                  </a>
+                  <a onclick="scrollToSection('clients')" href="javascript:;">
+                    Clients
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-0 ml-auto">
+              <div class="info_contact">
+                <h4>Address</h4>
+                <div class="contact_link_box">
+                  <a href="">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span> Location </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span> Call +381 691060230 </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span> demo@gmail.com </span>
+                  </a>
+                </div>
+              </div>
+              <div class="info_social">
+                <!-- <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a> -->
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end info section -->
+
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container">
+          <p>&copy; <span id="displayYear"></span> All Rights Reserved</p>
+        </div>
+      </footer>
+      <!-- footer section -->
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+  </body>
+</html>
