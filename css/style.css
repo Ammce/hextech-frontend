@@ -931,3 +931,9 @@ flex-grow: 1;
   align-items: center;
   margin-bottom: 25px;
 }
+
+@media (max-width: 480px) {
+  .custom-carousel-inner {
+    min-height: 750px;
+  }
+}
